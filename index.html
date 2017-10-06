@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Card</title>
+
+
+    <!-- set viewport to device width to allow responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/animate.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</head>
+<body>
+
+	<header>
+	<div id="head-wrapper" class="container-fluid">
+	<div id="header" class="row">
+	<div class="col-sm-4">
+		<p class="player-info animated">Score:<span id="score">0</span></p>
+	</div>
+	<div class="col-sm-4">
+		<h1 class="animated tada infinite">
+			Memory Game!
+		</h1>
+		<button id="restartBtn" class="btn-success">NEW GAME</button>
+		<button id="resetScoreBtn" class="btn-danger">Clear Score</button>
+	</div>
+	
+	<div class="col-sm-4">
+		<p class="player-info animated">Your Steps:<span id="steps">0</span></p>
+	</div>
+	</div>
+	</div>
+	</header>
+	<div id="game-wrapper" class="container-fluid">
+	<div class="row">
+	<div id="game-board" class="col-sm-8 col-sm-offset-2">
+	<div class="container-fluid gameRow">
+		<div class="row">
+			<div class="box col-sm-2 animated" index="1" card=""></div>
+			<div class="box col-sm-2 animated" index="2" card=""></div>
+			<div class="box col-sm-2 animated" index="3" card=""></div>
+			<div class="box col-sm-2 animated" index="4" card=""></div>
+			<div class="box col-sm-2 animated" index="5" card=""></div>
+			<div class="box col-sm-2 animated" index="6" card=""></div>
+		</div>		
+	</div>
+	<div class="container-fluid gameRow">
+		<div class="row">
+			<div class="box col-sm-2 animated" index="7" card=""></div>
+			<div class="box col-sm-2 animated" index="8" card=""></div>
+			<div class="box col-sm-2 animated" index="9" card=""></div>
+			<div class="box col-sm-2 animated" index="10" card=""></div>
+			<div class="box col-sm-2 animated" index="11" card=""></div>
+			<div class="box col-sm-2 animated" index="12" card=""></div>
+		</div>		
+		</div>
+		<div class="container-fluid gameRow">
+		<div class="row">
+			<div class="box col-sm-2 animated" index="13" card=""></div>
+			<div class="box col-sm-2 animated" index="14" card=""></div>
+			<div class="box col-sm-2 animated" index="15" card=""></div>
+			<div class="box col-sm-2 animated" index="16" card=""></div>
+			<div class="box col-sm-2 animated" index="17" card=""></div>
+			<div class="box col-sm-2 animated" index="18" card=""></div>
+		</div>	
+		</div>
+		<div class="container-fluid gameRow">	
+		<div class="row">
+			<div class="box col-sm-2 animated" index="19" card=""></div>
+			<div class="box col-sm-2 animated" index="20" card=""></div>
+			<div class="box col-sm-2 animated" index="21" card=""></div>
+			<div class="box col-sm-2 animated" index="22" card=""></div>
+			<div class="box col-sm-2 animated" index="23" card=""></div>
+			<div class="box col-sm-2 animated" index="24" card=""></div>
+		</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="footer col-sm-12">
+	<iframe width="240" height="60" src="https://www.youtube.com/embed/pF8ZBgImzl4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+		
+	</div>
+	
+</body>
+</html>
